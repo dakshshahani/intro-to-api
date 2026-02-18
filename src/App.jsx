@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    loadCountryData("Qatar");
+    loadCountryData("India");
   }, []);
 
   async function loadCountryData(countryName) {
